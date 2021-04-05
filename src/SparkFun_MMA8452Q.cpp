@@ -1,3 +1,5 @@
+#include "main/globalMacros.h"
+#if ANGLE_SENSOR == 2
 /******************************************************************************
 SparkFun_MMA8452Q.cpp
 SparkFun_MMA8452Q Library Source File
@@ -447,3 +449,4 @@ void MMA8452Q::readRegisters(MMA8452Q_Register reg, byte *buffer, byte len)
 			buffer[x] = _i2cPort->read();
 	}
 }
+#endif

@@ -1,3 +1,5 @@
+#include "main/globalMacros.h"
+#if ANGLE_SENSOR == 2
 /******************************************************************************
 SparkFun_MMA8452Q.h
 SparkFun_MMA8452Q Library Header File
@@ -161,4 +163,5 @@ class MMA8452Q
 	void readRegisters(MMA8452Q_Register reg, byte *buffer, byte len);
 };
 
+#endif
 #endif
