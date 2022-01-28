@@ -1,7 +1,7 @@
 #include "main/globalMacros.h"
 #if ANGLE_SENSOR == 2
 /******************************************************************************
-SparkFun_MMA8452Q.h
+SparkFunMMA8452Q.h
 SparkFun_MMA8452Q Library Header File
 Jim Lindblom and Andrea DeVore @ SparkFun Electronics
 Original Creation Date: June 3, 2014

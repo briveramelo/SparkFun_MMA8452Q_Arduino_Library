@@ -1,7 +1,7 @@
 #include "main/globalMacros.h"
 #if ANGLE_SENSOR == 2
 /******************************************************************************
-SparkFun_MMA8452Q.cpp
+SparkFunMMA8452Q.cpp
 SparkFun_MMA8452Q Library Source File
 Jim Lindblom and Andrea DeVore @ SparkFun Electronics
 Original Creation Date: June 3, 2014
@@ -23,7 +23,7 @@ local, and you've found our code helpful, please buy us a round!
 Distributed as-is; no warranty is given.
 ******************************************************************************/
 
-#include "SparkFun_MMA8452Q.h"
+#include "SparkFunMMA8452Q.h"
 #include <Arduino.h>
 #include <Wire.h>
 
