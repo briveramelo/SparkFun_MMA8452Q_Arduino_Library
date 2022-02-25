@@ -1,4 +1,4 @@
-#include "main/globalMacros.h"
+#include "main/GlobalMacros.h"
 #if ANGLE_SENSOR == 2
 /******************************************************************************
 SparkFunMMA8452Q.cpp
