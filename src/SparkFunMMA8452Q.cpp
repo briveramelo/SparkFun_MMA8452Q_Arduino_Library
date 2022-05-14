@@ -1,5 +1,5 @@
 #include "main/GlobalMacros.h"
-#if ANGLE_SENSOR == 2
+#if ANGLE_SENSOR_SEAT == 2 || ANGLE_SENSOR_BACK == 2
 /******************************************************************************
 SparkFunMMA8452Q.cpp
 SparkFun_MMA8452Q Library Source File
